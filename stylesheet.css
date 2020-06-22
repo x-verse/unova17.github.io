@@ -1,0 +1,80 @@
+body {
+  font-family: "Avenir Next";
+  margin:0px;
+}
+
+/* Gunakan property list-style untuk menghilangkan bullet dari tag <li> */
+
+
+.header {
+  background-color:#000;
+  height: 90px;
+}
+
+.header-list a{
+  color:white;
+}
+
+.header img {
+	width:90px;
+	height:90px;
+}
+
+.header-logo{
+	float:left;
+}
+
+header-right {
+	float: right;
+  background-color: rgba(0, 255, 0, 0.3);
+  /* Ubah property transition */
+  transition: all 0.5s;
+}
+
+.header-right a:hover{
+	background-color:rgba(0, 255, 0, 0.5);
+}
+
+.header-right a{
+	background-color: rgba(0, 0, 0, 0.3);
+	font-size: 24px;
+	padding: 31px 20px;
+	color:white;
+  display:block;
+  float:right;
+}
+
+li {
+  list-style: none;
+  /* Gantikan property float ke left */
+  float:left;
+  padding:33px 20px;
+  font-size:24px;
+  color:#CCC;
+}
+
+.main {
+  background-color: #fafcfc;
+  height: 900px;
+}
+
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
+}
+
+li{
+  list-style: none;
+}
+
+.container {
+  width: 1170px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.container img{
+  width: 1330px;
+  height: 500px;
+  opacity: 0.7;
+}
